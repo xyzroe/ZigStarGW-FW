@@ -1,11 +1,12 @@
 # ZigStar LAN Gateway - Firmware
-This firmware delevoped to use with [ZigStar LAN Gateway](https://github.com/mercenaruss/zigstar_gateways)
+Firmware for [ZigStar LAN Gateway](https://github.com/mercenaruss/zigstar_gateways).
+For more documentation visit [zig-star.com](https://zig-star.com).
 
 ![](https://github.com/mercenaruss/zigstar_gateways/raw/main/img/Default.png)
 
 # Functions
-- Zigbee UART port forwarding using socket LAN connection
-- MQTT connection to view ESP32 connection and status
+- Zigbee UART port forwarding using LAN socket connection
+- MQTT connection to view ESP32 status. 
 - Restarting Zigbee and enabling Zigbee BSL via webpage and MQTT
 - ESP32 firmware update via webpage
 - Automatic switching to Wi-Fi network when RJ45 is disconnected - "Emergency mode"
